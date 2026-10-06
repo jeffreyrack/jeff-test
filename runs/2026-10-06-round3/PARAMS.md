@@ -32,3 +32,13 @@ These parameters **override** the defaults in `.claude/skills/business-ideation/
 
 ## Physical ideas are in scope
 Physical assets, locations and contracts are welcome. They are moats that AI-built clones can't copy (see lessons-learned §19). But they must satisfy the sponsor-time rule through outsourcing.
+
+## Sponsor rulings (2026-10-06, after the review panel)
+1. **Acquisitions get a longer payback window.**
+   - Buying an existing business with **verified trailing revenue** may take up to **24 months** to pay back the purchase price at P50.
+   - This replaces the 12-month limit for acquisitions only.
+   - The P10 loss limit (~50% of capital) still applies.
+2. **The sponsor-time gate uses running profit.**
+   - Net monthly profit for the $300/h gate is **operating profit before repaying the capital**: revenue minus COGS, fees, contractors, tokens and maintenance.
+   - Capital recovery is judged separately by the payback gate, so counting it in both places would double-count it.
+   - Setup hours × $300 still count against first-year profit.
