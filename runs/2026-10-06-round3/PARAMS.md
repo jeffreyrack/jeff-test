@@ -42,3 +42,11 @@ Physical assets, locations and contracts are welcome. They are moats that AI-bui
    - Net monthly profit for the $300/h gate is **operating profit before repaying the capital**: revenue minus COGS, fees, contractors, tokens and maintenance.
    - Capital recovery is judged separately by the payback gate, so counting it in both places would double-count it.
    - Setup hours × $300 still count against first-year profit.
+3. **The profit target is break-even after all costs, not $300/month.**
+   - The $300/month target existed to pay for operator tokens. This run already counts as costs:
+     - operator tokens;
+     - **every sponsor hour at $300/h**;
+     - capital recovery within the payback window.
+   - So **P50 net ≥ $0 after all of these** passes: the business pays for its own AI and pays the sponsor $300/h for their time.
+   - The $1,000/month stretch target remains a tie-breaker.
+   - Note that at exactly $0, the capital earns nothing against the ~4% Treasury-bill benchmark. Report that as context, not as a gate.
