@@ -131,6 +131,22 @@ This applies across all runs. Apify can withhold all payouts for a policy breach
 
 **On both platforms, operator tokens are the main cost.** Model them as the true break-even line.
 
+### 19. Anything an AI can build alone, other AIs have already built
+
+The M3 day-0 audit found about 21 Sheets-writer Actors launched in Jul–Sep 2026. They made M3's exact pitch and had about 25 users in total, against the incumbent's 825.
+
+**The rule:** if the product can be built from public information by an AI agent in under a week, assume clones exist or will exist within weeks.
+
+**What survives is an edge that copying can't reproduce:**
+- placement someone else controls (curation, partnerships);
+- an audience or community the sponsor already has;
+- proprietary data;
+- trust, credentials or relationships;
+- capital (paid distribution);
+- something in the physical world.
+
+**Check this in the audit, not afterwards.** Count same-pitch listings created in the last 90 days and what they have achieved.
+
 ### Ideas evaluated in round 2: do not resubmit
 | ID | Idea | Outcome |
 |---|---|---|
@@ -143,9 +159,9 @@ This applies across all runs. Apify can withhold all payouts for a policy breach
 | I1 | Zì Bot | |
 | I2 | Episode Study Packs | |
 | I3 | Role-Play Room | |
-| M1 | ChatRelay for Jira | Pick #2 |
+| M1 | ChatRelay for Jira | Pick #2 → dropped by the sponsor: hard to test cheaply, and cash wouldn't arrive until ~Mar–May 2027. |
 | M2 | SpecView for Confluence | |
-| M3 | SheetSync Apify→Sheets | Pick #1 |
+| M3 | SheetSync Apify→Sheets | Pick #1 → **No-go after day-0 audit.** ~21 identical clones with ~25 users in total; the incumbent is maintained by Apify; Apify grants the curated placement. |
 | U4 | AI-matched job board | No-go |
 
 Adjacent ideas that fix a listed idea's fatal flaw are allowed. Say which one you are fixing.

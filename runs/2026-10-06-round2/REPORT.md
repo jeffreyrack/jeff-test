@@ -381,3 +381,15 @@ The sponsor chose to **focus on M3 SheetSync only**.
 - **M1 ChatRelay is dropped.** Atlassian partner verification and app review make it hard to test cheaply, and cash wouldn't arrive until around March–May 2027. No Atlassian account will be created.
 - **Slot #2 is left empty** for now. D2 and G1 remain documented fallbacks but are not active.
 - **Next step:** M3's day-0 gate, an incumbent-failure audit plus a check of placement in Apify's integration picker. Its findings go in `tests/M3.md`, and building starts only if the audit passes.
+
+## 8. Outcome of M3 day-0 gate (2026-10-06)
+
+The audit is in `tests/M3.md`. Its verdict was **pivot (placement first)**, and the sponsor concluded **no-go**.
+
+- **The failure audit passed.** About 55% of the incumbent's failures are fixable bugs in the Actor itself.
+- **Placement failed.**
+  - About 21 Actors making the same pitch launched in Jul–Sep 2026, and together they have about 25 users.
+  - The incumbent is maintained by Apify.
+  - The only placement that would give an edge ("Generic integrations" or "Suggested for this Actor") is granted at Apify's discretion.
+
+**No active picks remain from round 2.**
