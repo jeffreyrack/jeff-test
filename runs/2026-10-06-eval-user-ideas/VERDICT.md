@@ -68,3 +68,61 @@ For comparison, the top picks from the 15-idea run scored 6.20 (D2) and 5.95 (T2
   - Label content as AI-generated (EU AI Act Article 50).
 
 **Founder fit (not scored by the rubric):** the user is an active learner who already builds study tools. That is a real advantage for taste and dogfooding, and a reason to prefer U2-W over similarly scored ideas from the first run if the user wants to work on it personally. It does not replace native QA.
+
+---
+
+## U3: AI Mandarin tutor (corrected form of U2: AI-led lessons + text/voice conversation)
+
+| ID | Idea | Sale | Mkt | Auto | UnitEc | Legal | Composite | Gate | Verdict |
+|---|---|---|---|---|---|---|---|---|---|
+| U3 | General AI Mandarin tutor, $9–15/mo | 3 | 3 | 7 | 5 (2 if uncapped realtime voice) | 5 | **4.40** | Pass (P50 ~130 days) | **No-go** in general form |
+| U3-W | HSK 3.0 speaking/translation mock trainer with tone scoring, one-time $19–29 per level | 5 | 5 | 7 | 5† | 6‡ | **~5.55** (indicative) | Pass (P50 ~70 days) | **Pivot → cheap test** |
+
+† The one-time pack was not modelled separately. A one-time price removes the 20%/month churn, so 5 is conservative.
+‡ Legal is 6 if the day-one mitigations ship at launch.
+
+### Is the user's cost thesis right?
+**Half right.**
+
+What holds up:
+- **AI is 5–40× cheaper per minute than a human tutor.** italki/Preply charge $0.13–0.67/min; AI costs $0.002–0.084/min.
+- **No ongoing native content review is needed.** Lessons happen live, so there is no generated library to check. What remains is a one-time calibration (about $30–250) plus a short re-check whenever the model changes.
+
+But that is the wrong comparison:
+- Buyers compare against **other AI tutors and free chatbots**: HelloChinese $11.99, SuperChinese $11.99/$24.99, Pingo $14.99, Speak $14.99, ChatGPT Go $8, Gemini Live free.
+- So the price ceiling is $12–15/month, and inference is now the main cost per user.
+
+### Inference cost per active user per month (20 days)
+
+| Architecture | 5 min/day | 15 min/day | 30 min/day |
+|---|---|---|---|
+| Text only | $0.16 | $0.61 | $1.58 |
+| Speech-to-text + LLM + text-to-speech + Azure tone scoring | $1.61 | $5.13 | $11.13 |
+| Realtime-mini (context summarised) | $2.72 | $8.15 | $16.30 |
+| Realtime flagship | $8.38 | $25.13 | $50.25 |
+
+Realtime APIs re-bill the accumulated conversation on every turn. Uncapped heavy users would cost more than they pay. The tutor needs in-app minute caps: for example, $15/month for 300 voice minutes, of which up to 60 are realtime.
+
+### Key risks
+- **Tone feedback is the stated differentiator but the weakest part.** Speech-to-text "auto-corrects" wrong tones into the intended character, so they go unnoticed. Azure's zh-CN assessment flags weak syllables but cannot tell which tone was produced. **Do not claim tone correctness. Show pitch curves against a native reference instead.**
+- **Legal (score 5–6):**
+  - Illinois BIPA voiceprint exposure: Delgado v. Meta, June 2026.
+  - Companion-chatbot laws with private rights of action: CA SB 243 now; OR, WA and RI in 2027.
+  - Rules on minors.
+  - **Mitigations:**
+    - 18+ only.
+    - No raw audio stored and no speaker models.
+    - API tiers that retain no data.
+    - Written consent before voice mode.
+    - Conversations kept inside lesson scenarios, with a crisis-referral flow tuned for Mandarin (死 is an everyday intensifier).
+    - Avoid China-hosted speech and LLM APIs (the DOJ bulk-data rule).
+- **Distribution:** the category is mobile-first. A web PWA can't afford the $124 in app-store developer fees within the $100 cap, and won't rank for "AI Chinese tutor".
+
+### Recommendation
+Don't build a general AI tutor. If the user wants to pursue Chinese, run the **HSK 3.0 speaking/translation mock trainer** as a cheap demand test first:
+1. Confirm the official HSK 3.0 speaking-task specs and exam dates on chinesetest.cn. Reviewers disagree on whether the 13 Dec 2026 sitting is confirmed.
+2. Put up a landing page with a demo of one HSK 3 speaking task, and take pre-orders at $19 for a level pack.
+3. Seed a free AnkiWeb 2.0→3.0 change deck as the lead magnet.
+4. Build only if there are at least 10 pre-orders within about 30 days.
+
+The user's existing practice repo (not yet inspected) is the natural starting point, and the founder fit is real.
