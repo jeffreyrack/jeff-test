@@ -46,7 +46,7 @@ Shared references are in `reference/`:
    - the ideas folder;
    - its output path `runs/<date>/reviews/<agent>.md`.
    Wait for all of them to finish.
-5. **Phase 3 — Decide.** Run `investment-committee` with the run directory. It writes `runs/<date>/REPORT.md`.
+5. **Phase 3 — Decide.** Run `investment-committee` with the run directory. It returns the report text; save it verbatim to `runs/<date>/REPORT.md`.
 6. **Sanity-check the report.**
    - Composite scores must match the rubric formula.
    - The hard gates must be applied.
