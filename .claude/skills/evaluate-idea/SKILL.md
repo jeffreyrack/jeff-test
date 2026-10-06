@@ -1,6 +1,6 @@
 ---
 name: evaluate-idea
-description: Run the evaluation panel (sales skeptic, market analyst, autonomy auditor, legal risk analyst, unit economics analyst) on a single business idea the user supplies, then give a go/no-go verdict. Use when the user has their own idea and wants it stress-tested for AI-run viability.
+description: Run the evaluation panel (sales skeptic, market analyst, autonomy auditor, legal risk analyst, unit economics analyst, demand validator) on a single business idea the user supplies, then give a go/no-go verdict. Use when the user has their own idea and wants it stress-tested for AI-run viability.
 ---
 
 # Evaluate a Single Idea
