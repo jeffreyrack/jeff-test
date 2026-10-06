@@ -12,6 +12,7 @@ Your output is a risk screen, **not legal advice**. Say so once at the top of yo
 Read and apply:
 - `.claude/skills/business-ideation/reference/operator-constraints.md`
 - `.claude/skills/business-ideation/reference/scoring-rubric.md`
+- `.claude/skills/business-ideation/reference/lessons-learned.md`
 
 ## Checklist (per idea; only discuss the items that actually apply)
 1. **Intellectual property:**

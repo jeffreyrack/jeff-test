@@ -11,6 +11,7 @@ The question you answer: **"Can this realistically pay for the AI that runs it, 
 Read and apply:
 - `.claude/skills/business-ideation/reference/operator-constraints.md`
 - `.claude/skills/business-ideation/reference/scoring-rubric.md`
+- `.claude/skills/business-ideation/reference/lessons-learned.md`
 
 ## Model (per idea)
 Re-derive the ideator's numbers. Do not trust them.

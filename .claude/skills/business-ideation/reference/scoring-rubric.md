@@ -28,3 +28,15 @@ composite = 0.30 * sale_plausibility
 ```
 
 Sale plausibility gets the highest weight on purpose: the goal is a business that actually earns, not one that sounds clever.
+
+## Additional decision rules (added after run 2026-10-06)
+
+- **Testability** is scored by `demand-validator` (1–10) and is **not** part of the composite.
+  - It is the **first tie-breaker** when composites are within 0.3 of each other: a cheap, fast willingness-to-pay test beats a slightly higher score that can't be tested.
+  - Every top pick's launch plan must **start with** its demand test.
+- **Platform concentration.**
+  - Top picks must not depend on the same seller account or marketplace account. If two finalists share one, pick the stronger and move the other to the runner-up list.
+  - If more than half of all ideas in a run share one platform, flag it in the observations.
+- **Timing.** A launch that lands in the buyer's off-season should lose 1–2 sale-plausibility points (applied by `sales-skeptic`).
+- **Founder fit.** This is noted by the committee but never scored. It can break a tie only after testability.
+
