@@ -424,3 +424,15 @@ Weeks 2–4:
 - B1 now meets the target in its own right, rather than only as a test.
 - For every other idea, the binding constraint is **capital payback and downside**, not the profit target. Acquisitions only work at the price ceilings in §4.5.
 - At break-even the capital earns ~0% against ~4% in T-bills. That is context only.
+
+---
+
+## 8. Sponsor decision (2026-10-06)
+
+The sponsor **declined B1 and B3** and the acquisition price indications. They don't believe the ideas will succeed.
+
+- No tests will be run.
+- No accounts will be created.
+- No money will be spent.
+
+**Status:** no active picks in any round.

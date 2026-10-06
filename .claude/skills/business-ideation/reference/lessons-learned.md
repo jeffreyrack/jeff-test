@@ -200,10 +200,23 @@ That is sponsor ruling 3.
 | Q1 | UltraWideo-class extension acquisition | Gated; passes only at ≤ ~$2.7k cash |
 | Q2 | Wheel of Life-class app acquisition | Gated; passes only at ≤ ~$4.9k cash |
 | Q3 | ≤ $3k fire-sale buy order | Kept as an AI-only screen |
-| B1 | HSK 3.0 speaking mock | Pick #1 |
+| B1 | HSK 3.0 speaking mock | Pick #1 → declined by the sponsor |
 | B2 | SubWatch OSHA monitoring | Rejected; SiteVetter clone |
-| B3 | Heirloom recipe cookbook | Pick #2 |
+| B3 | Heirloom recipe cookbook | Pick #2 → declined by the sponsor |
 | P1 | Merchant-loaded ATMs | Rejected |
 | P2 | Power-bank stations | Rejected |
 | P3 | PlacementDesk | Rejected |
 | U5 | Vending | Rejected; negative at 1–3 machines |
+
+### 25. Picks that pass the gates can still fail the sponsor's own conviction test
+
+Three rounds produced picks the sponsor didn't believe in:
+- **Round 1:** never tested.
+- **Round 2:** one dropped by the sponsor; one killed by its own audit.
+- **Round 3:** both declined by the sponsor.
+
+Passing the rubric is not the same as being worth doing.
+
+**For future runs:**
+- Before ideation, ask the sponsor what a "yes" would look like: the kinds of business they would be excited to own, and the ones they would not.
+- After scoring, include a short sponsor-conviction check before writing launch plans.
