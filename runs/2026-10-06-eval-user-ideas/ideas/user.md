@@ -102,3 +102,45 @@ Weak on its own. A learner can ask ChatGPT for "a story using HSK 3 words". The 
 - A saturated market with well-funded apps (Duolingo, HelloChinese, Du Chinese) and direct "AI personalised reader" competitors.
 - AI-generated Chinese can contain unnatural phrasing, which damages trust with learners.
 - Consumer subscription churn is high.
+
+---
+
+## U3 — AI Mandarin tutor: AI-led lessons and conversation practice (corrected form of U2, per the user)
+
+- **Persona:** User-supplied
+- **User's clarification:** "The Chinese learning tools are really AI driven, with conversations around AI and having AI provide the lessons. So different costs than a natural speaker." The product is an **AI tutor**, not a graded reader. Its cost comparison is against human tutors (italki/Preply, roughly $10–30/hour).
+- **One-liner:** (assumed details) An AI Mandarin tutor that plans lessons, teaches them, and runs text and voice conversation practice at the learner's level. It tracks vocabulary and mistakes across sessions and adapts the next lesson. It grows out of the user's own practice repo, which was not inspected because access was not granted.
+- **Customer:** (assumed) Adult self-directed Mandarin learners from HSK 1 to 5 who want speaking practice but find human tutors expensive, awkward to schedule, or intimidating.
+- **Problem / desire:** "I need speaking practice every day, but a tutor is $20/hour and I'm embarrassed to make mistakes in front of a person."
+- **Offering:** A web app (PWA), with text chat plus voice mode (speech-to-text → LLM → text-to-speech, or a realtime speech-to-speech model). It includes a structured lesson path, conversation scenarios, corrections with pinyin and tone feedback, and a spaced-repetition review of mistakes.
+- **Price & revenue model:** (assumed) $9–15/month, with a limited free tier. Possibly priced per minute of voice.
+- **Physical items required?** No
+
+### Upfront capital
+| Item | Cost |
+|---|---|
+| Domain | $12 |
+| Hosting (free tier) | $0 |
+| **Total** | **~$12** |
+
+### Monthly running costs (excluding operator tokens)
+**Per-user inference is the main cost.** The unit-economics analyst must model it.
+- Text turns are cheap.
+- Voice depends on the architecture: a speech-to-text + LLM + text-to-speech pipeline, versus a realtime speech-to-speech API with per-minute audio pricing.
+- Assume heavy users practise 15–30 minutes a day.
+- Merchant-of-record fees: about 5% + $0.50.
+
+### Customer acquisition plan
+(assumed) A free tier gets learners hooked. Add demo clips of conversations, an r/ChineseLanguage show-and-tell (posted by the human), a free AnkiWeb deck as a lead magnet, and SEO pages for "Mandarin speaking practice" and "AI Chinese tutor".
+
+### Who does what
+- **AI operator:** build the app, design the curriculum, maintain the prompts, handle support, run evals of tutor quality.
+- **Human sponsor:** merchant-of-record KYC, any community posting, and optional native-speaker calibration of the tutor's corrections. That is a **one-time calibration**, not ongoing content review, because conversations happen live.
+
+### Moat — why not just ask ChatGPT?
+This is the central question. ChatGPT and Gemini voice modes already speak Mandarin, and dedicated AI tutors exist. Any moat has to come from structured curriculum, persistent learner memory, tone-accuracy feedback, and habit loops.
+
+### Biggest risks
+- Commoditisation by general-purpose voice assistants and well-funded AI tutor apps.
+- Voice inference cost at heavy usage.
+- Unreliable tone and pronunciation feedback that the learner can't detect.
