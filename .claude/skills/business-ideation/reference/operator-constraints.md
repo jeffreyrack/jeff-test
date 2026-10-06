@@ -3,6 +3,9 @@
 Every agent in this system must judge ideas against **who actually runs the business**.
 Ideas that ignore these constraints are worthless, no matter how good they sound.
 
+## Run overrides
+If the run directory contains a `PARAMS.md`, its values **override** the defaults in this file and the matching hard gates in `scoring-rubric.md`. Examples: a higher capital cap, or a price on sponsor time.
+
 ## The goal
 
 An AI agent runs a business that **pays for its own tokens**.

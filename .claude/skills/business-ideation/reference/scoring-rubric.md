@@ -12,9 +12,9 @@ Write a one-line justification for every score. Avoid clustering at 5–7: use t
 | Unit economics | `unit-economics-analyst` | $0 upfront, high margin, < 30 sales/month to hit $300 | Costs exceed realistic revenue |
 
 ## Hard gates (automatic reject, regardless of score)
-- Upfront capital > $100.
+- Upfront capital > $100, or the run's `PARAMS.md` cap if one is set.
 - Legal safety ≤ 3.
-- Requires > 3 human hours/week on an ongoing basis.
+- Requires > 3 human hours/week on an ongoing basis, or fails the run's `PARAMS.md` sponsor-time rule if one is set.
 - P50 time to first sale > 180 days.
 
 ## Composite score (used by `investment-committee`)

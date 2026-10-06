@@ -20,6 +20,9 @@ Goal: find a business an AI agent can run **mostly on its own** that earns at le
 | 1. Ideate | `ideator-marketplace-native` | The Marketplace Native: only marketplaces that provide both discovery and billing |
 | 1. Ideate | `ideator-agent-economist` | The Agent Economist: sells to developers and AI agents (APIs, MCP servers, datasets) |
 | 1. Ideate | `ideator-insider` | The Insider: founder fit, built from the sponsor's own skills, hobbies and repos (needs a sponsor profile) |
+| 1. Ideate | `ideator-acquirer` | The Acquirer: buys an existing profitable small online business (needs a capital-allowing `PARAMS.md`) |
+| 1. Ideate | `ideator-physical-operator` | The Operator: physical, location or equipment businesses with outsourced labour (needs `PARAMS.md`) |
+| 1. Ideate | `ideator-media-buyer` | The Media Buyer: uses capital to buy distribution, with strict CAC/LTV maths (needs `PARAMS.md`) |
 | 2. Evaluate | `sales-skeptic` | Adversarial review of sale plausibility and time to first sale |
 | 2. Evaluate | `market-analyst` | Demand, competitors, saturation, AI commoditization |
 | 2. Evaluate | `autonomy-auditor` | Human intervention required |
@@ -36,9 +39,10 @@ Shared references are in `reference/`:
 
 ## Arguments (optional)
 - `focus`: restrict or bias the ideators, e.g. "B2B only" or "no physical goods".
-- `personas`: subset of ideators to run (default: all nine). If `ideator-insider` runs, give it a sponsor profile built from what the user has shared. Never include their employer.
+- `personas`: subset of ideators to run (default: all nine non-capital personas; the capital personas run only when `PARAMS.md` allows capital). If `ideator-insider` runs, give it a sponsor profile built from what the user has shared. Never include their employer.
 - `ideas_per_persona`: default 3.
 - `target`: monthly break-even target (default $300).
+- `params`: run overrides such as a capital cap or a price on sponsor time. Write them to `runs/<date>/PARAMS.md` and tell every agent to read it.
 
 ## Procedure
 
