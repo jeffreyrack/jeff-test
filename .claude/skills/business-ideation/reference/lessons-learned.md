@@ -71,4 +71,66 @@ No idea included a $0 pre-sale, a test listing or a deposit waitlist. Every idea
 | U1 | OSRS GE flip advisor | No-go. Gp cannot become USD; free incumbents. |
 | U3 | AI Mandarin tutor | No-go in general form. The HSK 3.0 speaking-mock wedge is pending a demand test. |
 
+## Run 2026-10-06 round 2: 13 ideas
+Results:
+- The best composite rose to 6.70 (M3), and M3's sale score of 7 is the first above 6.
+- The winners came from the marketplace persona, which looked for **stranded paying users**: customers of a broken or abandoned incumbent.
+
+### 11. Model first *cash*, not only first sale
+Count payout thresholds and timing in the time to first cash:
+| Platform | Payout rule |
+|---|---|
+| Atlassian | Nothing paid until $500 cumulative |
+| Apify | $20 minimum; paid on the 21st–25th of the next month |
+| RapidAPI | Paid in month +2 |
+
+### 12. Never give away the unit you charge for
+Two launch promos in this run destroyed the unit economics:
+- M3 made the first 1,000 rows of every run free, but typical runs are about 200 rows, so almost every run was free.
+- C2 offered a "founding price for life".
+
+On Apify, free-plan users pay out nothing, but supplier APIs still bill you for their runs. Gate supplier calls on the user's plan.
+
+### 13. Multi-tenant designs need per-customer authorization
+A shared credential that lets one customer write to another customer's resources is a launch blocker.
+
+### 14. Partner channels are not marketplaces
+- Expect a 5–10% yes-rate from an unknown vendor.
+- Expect 1–1.5 h/week of hidden sponsor time for pitching and partner management.
+- There is no built-in discovery or billing.
+
+### 15. Check supplier and platform terms before building
+Terms missed in this run:
+- DataForSEO's terms are silent on resale.
+- Gemini's grounding terms ban caching or reselling grounded answers.
+- ProPublica's API licence is non-commercial (NC).
+- Discord requires payment parity for features sold outside its own billing.
+- Transactional email providers ban cold outreach.
+
+### 16. Clone floods are now the default
+- On every marketplace checked, "few listings" no longer means a gap. AI-built clones fill the long tail.
+- Cheaper clones and "reliable" clones both sit at 0–2 users.
+- Look for placement advantages (integration pickers, in-product search) and for incumbents that are broken right now.
+- Check each incumbent's last-modified date and changelog.
+
+### 17. One production listing per marketplace account
+This applies across all runs. Apify can withhold all payouts for a policy breach, so co-located Actors share that risk.
+
+### Ideas evaluated in round 2: do not resubmit
+| ID | Idea | Outcome |
+|---|---|---|
+| G1 | Keyword→Brief SEO API (Apify) | |
+| G2 | LongForm Transcripts (Apify) | |
+| G3 | AnswerShare GEO API | |
+| C1 | FunderFit | |
+| C2 | Client Safety Kit | |
+| C3 | Interpreter Practice Lab | |
+| I1 | Zì Bot | |
+| I2 | Episode Study Packs | |
+| I3 | Role-Play Room | |
+| M1 | ChatRelay for Jira | Pick #2 |
+| M2 | SpecView for Confluence | |
+| M3 | SheetSync Apify→Sheets | Pick #1 |
+| U4 | AI-matched job board | No-go |
+
 Adjacent ideas that fix a listed idea's fatal flaw are allowed. Say which one you are fixing.
