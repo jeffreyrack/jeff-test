@@ -371,3 +371,13 @@ Column sources:
   - Partner yes-rates for an unknown vendor are 5–10%.
   - Check supplier ToS for resale before building.
   - One production listing per marketplace account across all runs.
+
+---
+
+## 7. Sponsor decision (2026-10-06)
+
+The sponsor chose to **focus on M3 SheetSync only**.
+
+- **M1 ChatRelay is dropped.** Atlassian partner verification and app review make it hard to test cheaply, and cash wouldn't arrive until around March–May 2027. No Atlassian account will be created.
+- **Slot #2 is left empty** for now. D2 and G1 remain documented fallbacks but are not active.
+- **Next step:** M3's day-0 gate, an incumbent-failure audit plus a check of placement in Apify's integration picker. Its findings go in `tests/M3.md`, and building starts only if the audit passes.
