@@ -165,3 +165,45 @@ The M3 day-0 audit found about 21 Sheets-writer Actors launched in Jul–Sep 202
 | U4 | AI-matched job board | No-go |
 
 Adjacent ideas that fix a listed idea's fatal flaw are allowed. Say which one you are fixing.
+
+## Run 2026-10-06 round 3: capital allowed (≤ $10k), sponsor time priced at $300/h; 10 ideas
+Results:
+- **Picks:** B1 HSK 3.0 speaking mock (staged $362 test) and B3 heirloom cookbook (staged $820 test).
+- **Rejected:** every acquisition and physical idea, on payback or downside.
+
+### 20. Capital buys tests, not income
+- Under $10k, cash-flowing assets cost 1.7–2.8× revenue on TrustMRR. The prices that pass the gates are 0.4–0.7×.
+- **For acquisitions, send a price indication before any due-diligence hours.**
+- Physical routes of 1–3 units can't carry fixed overhead once sponsor time is priced.
+- **The best use of capital was buying a fast, capped answer** through paid ads.
+
+### 21. Priced sponsor time is the binding constraint
+- Tokens plus even 0.25–0.5 h/mo of sponsor time make a ~$150–300/mo fixed cost floor.
+- Ideators under-count setup hours by about 2× (phone calls, lawyers, receiving goods).
+- Ideators leave recurring sponsor cost out of "net". Always put it in.
+
+### 22. Verify gross vs proceeds, and billing portability
+- Check store and processor exports before modelling. Gross vs proceeds was a ~20% difference that moved Q2's price ceiling by $1.7k.
+- Merchant-of-record subscriptions (Lemon Squeezy) mostly can't be transferred to a new owner.
+- App Store/Play, Shopify-billed and Freemius-billed assets transfer cleanly.
+
+### 23. One verified identity sits behind every ad account
+- Google links accounts by verifier, so a second account does not isolate risk.
+- Put concurrent tests on different ad networks (e.g. Google for one, Meta + Microsoft for another).
+
+### 24. When sponsor time and tokens are already counted as costs, the profit target is break-even
+That is sponsor ruling 3.
+
+### Ideas evaluated in round 3: do not resubmit
+| ID | Idea | Outcome |
+|---|---|---|
+| Q1 | UltraWideo-class extension acquisition | Gated; passes only at ≤ ~$2.7k cash |
+| Q2 | Wheel of Life-class app acquisition | Gated; passes only at ≤ ~$4.9k cash |
+| Q3 | ≤ $3k fire-sale buy order | Kept as an AI-only screen |
+| B1 | HSK 3.0 speaking mock | Pick #1 |
+| B2 | SubWatch OSHA monitoring | Rejected; SiteVetter clone |
+| B3 | Heirloom recipe cookbook | Pick #2 |
+| P1 | Merchant-loaded ATMs | Rejected |
+| P2 | Power-bank stations | Rejected |
+| P3 | PlacementDesk | Rejected |
+| U5 | Vending | Rejected; negative at 1–3 machines |
