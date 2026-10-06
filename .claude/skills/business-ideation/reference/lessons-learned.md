@@ -116,6 +116,21 @@ Terms missed in this run:
 ### 17. One production listing per marketplace account
 This applies across all runs. Apify can withhold all payouts for a policy breach, so co-located Actors share that risk.
 
+### 18. Who pays compute (checked against platform docs on 2026-10-06)
+
+**Apify pay-per-event (PPE):**
+- `profit = 0.8 × revenue − platform costs`, counted for paid-plan users only.
+- Apify covers the compute costs of free-plan users.
+- An Actor's negative profit is floored at $0 and is **not** netted against other Actors' profit.
+- So the developer is never invoiced for compute. The worst case is $0 earned.
+
+**Atlassian Forge:**
+- The developer is invoiced monthly in arrears for usage above the free allowance. This includes usage from free-tier installs.
+- The allowance includes 200k GB-seconds of function time per month; overage is $0.000025 per GB-second.
+- Atlassian holds payouts until $500 is earned, so any overage is paid out of pocket until then.
+
+**On both platforms, operator tokens are the main cost.** Model them as the true break-even line.
+
 ### Ideas evaluated in round 2: do not resubmit
 | ID | Idea | Outcome |
 |---|---|---|
